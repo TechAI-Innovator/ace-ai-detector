@@ -38,8 +38,8 @@ Preview of ACE from login to Dashboard:
 ![Ace Screenshot 1](static/images/Ace1.JPG)
 ![Ace Screenshot 2](static/images/Ace2.JPG)
 ![Ace Screenshot 3](static/images/Ace3.JPG)
-![Ace Screenshot 4](static/images/Ace4.PNG)
-![Ace Screenshot 5](static/images/Ace5.PNG)
+![Ace Screenshot 4](static/images/Ace4.png)
+![Ace Screenshot 5](static/images/Ace5.png)
 
 ---
 
