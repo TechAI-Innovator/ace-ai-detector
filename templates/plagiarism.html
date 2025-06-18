@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head> <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head> <link rel="stylesheet" href="{{ url_for('static', filename='css/index_part1.css') }}">
+</head> <link rel="stylesheet" href="{{ url_for('static', filename='css/index_part2.css') }}">
 <body>
     <header>
             <!-- Update ACE logo link to direct to '/home' -->
@@ -63,7 +64,7 @@
             <form method="POST">
                 <button type="submit" name="action" value="detect" class="intro-button check-ai">DETECT</button>
             </form>
-             <a href="{{ url_for('ai_game') }}" class="intro-button play-game">PLAY</a>
+             <!-- <a href="{{ url_for('ai_game') }}" class="intro-button play-game">PLAY</a> -->
         </div>
     </div>
     {% endif %}
@@ -128,6 +129,8 @@
             {% endif %}
         {% endwith %}
     </div>
+    <script src="{{ url_for('static', filename='js/tts.js') }}"></script>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

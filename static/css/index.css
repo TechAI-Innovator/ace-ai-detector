@@ -419,3 +419,64 @@ input[type="submit"] { display: block; margin-bottom: 20px; margin-left: -60px; 
 .intro-section {
     animation: fadeSlideIn 1.5s ease-out;
 }
+
+
+/* Ensure full responsiveness */
+@media screen and (max-width: 768px) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .input-section,
+    .analysis-result-section {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .chat-section {
+        flex: 1;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/* Dominant chat section layout */
+.chat-section {
+    flex-grow: 1;
+    flex-basis: 70%;
+    max-width: 100%;
+    min-height: 500px;
+}
+
+/* Sidebar default and toggle behavior */
+.sidebar {
+    width: 250px;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    background-color: #1f0f32;
+    color: white;
+}
+
+.sidebar.collapsed {
+    width: 60px;
+}
+
+.sidebar-toggle {
+    background-color: #fcff3a;
+    color: #1f0f32;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
