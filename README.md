@@ -38,6 +38,8 @@ Preview of ACE from login to Dashboard:
 ![Ace Screenshot 1](static/images/Ace1.JPG)
 ![Ace Screenshot 2](static/images/Ace2.JPG)
 ![Ace Screenshot 3](static/images/Ace3.JPG)
+![Ace Screenshot 4](static/images/Ace4.JPG)
+![Ace Screenshot 5](static/images/Ace5.JPG)
 
 ---
 
@@ -53,8 +55,9 @@ Preview of ACE from login to Dashboard:
 
 ---
 
-👤 Author
-Developer: [Aliyu Hakeem Tosin]
-📧 Email: acetosyn@gmail.com
-💻 GitHub: acetosyn
+**👤 Authors**
+**👨‍💻 Co-Developer:** Adu Oluwanifesimi Ayomide (me)
+**🤝 Partnered with:** Aliyu Hakeem Tosin
+**📧 Email:** aduayomide5@gmail.com
+**💻 GitHub:** TechAI-Innovator
 
